@@ -1,0 +1,57 @@
+Machine learing
+fondamentaux
+
+machine learning c'est quoi ?
+    des algorithmes d'apprentissage par supervision 
+    apprentissage automatique basé sur un grand ensemble de donnée
+à quoi ça sert ?
+    pour pouvoir prendre des décisions sur des tâches complexe à mettre en équation 
+    advances of gpu/cpu
+    big data
+    deep learning 
+danger ?
+    comment il a prit quelle décision 
+    utiliser pour tt et rien
+    perte de connaissance, de progression dans la découverte et la maitrise humaine 
+où ?
+    speech recognition
+    handwriting recognition
+    marketing
+    recommendation system
+
+
+handrwiting recogniser
+input/output
+    input : "vecteur" de pixels -> X
+    output : one hot vector, label -> vecteur de sortie Y et prédiction ^Y (Y avec un chapeau)
+difficulties :
+    training data with proper classification
+    variablility whithin a class
+evaluations :
+    if y = ^y for all y => perfect system 100% accuracy 
+
+^Y = h(X)
+h est la fonction de machine learning
+
+la distortion est la distance qu'il y a entre ^Y et Y. les algorithmes utilisé vont uniquement chercher
+à réduire cette distance.
+9p
+parfois on ne va pas utiliser le vecteur d'entré tel quel. On va ajouter une étape de "feature extraction" 
+c'est nottament le cas pour la reconnaisance de visage (voir le cours)
+l'extraction de ces features est un phénomène assez naturel, on rend le système attentif au feature que l'on sait
+pertinante. On parle de feature engenerring, c.a.d la recherche de feature dans un domaine particulier.
+
+le machine learning c'est la correlation de différent domaine
+math, traitement du signal, software, algo, ..
+
+apprentissage : l'acquisition de connaissance par l'expérience ou par l'enseignement
+
+machine learning définition : champs d'étude qui donne aux ordinateurs la 
+capacité d'apprendre sans avoir été spécifiquement programmé pour cela
+
+on a deux grandes catégories :
+supervisée et non-supervisée 
+supervisée : on a accès au Y 
+ces algorithmes peuvent être de régression ou de classification :
+régression : valeur continue 
+classification : label 
